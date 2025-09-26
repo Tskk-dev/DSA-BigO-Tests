@@ -9,7 +9,7 @@
 // (N being used on the activity which this was required in, substituted using the contstant bellow).
 
 
-const int TEST_SIZES[] = {5, 10, 20, 40, 80}; // change this value to change growth rates for each function
+const int TEST_SIZES[] = {5, 10, 50, 100, 150, 300}; // change this value to change growth rates for each function
 const int NUM_SIZES = sizeof(TEST_SIZES) / sizeof(TEST_SIZES[0]);
 
 // Measure O(n) runtime
